@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background: rgb(220, 220, 213);
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.drop1{
+    position:absolute;
+   
+    width: 150px;
+    height: 150px;
+    background:ivory;
+    border-radius:53% 47% 64% 36% / 33% 22% 78% 67% ;
+    box-shadow:10px 10px 10px rgba(0,0,0,0.5)
+}
+.drop1::before{
+    content:'';
+    position:absolute;
+    top:35px;
+    left:35px;
+    background:rgba(237, 240, 242, 0.593);
+    width:20px;
+    height:20px;
+    border-radius:53% 47% 64% 36% / 33% 22% 78% 67% ;
+}
+.drop1::after{
+    content:'';
+    position:absolute;
+    top:55px; left:55px;
+    background:rgba(237, 240, 242, 0.593);
+    width:20px;
+    height:20px;
+    border-radius:53% 47% 64% 36% / 33% 22% 78% 67% ;
+} 
+
+.drop2{
+    position:absolute;
+    right: 55px;
+    top:30px;
+    height:55px;
+    width:55px;
+    background:rgb(255, 255, 240);
+    box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+    border-radius:55% 45% 51% 49% / 47% 54% 46% 53% 
+}
+.drop2::before{
+    content:'';
+    position:absolute;
+    top:25px;
+    left:15px;
+    background:rgba(237, 240, 242, 0.593);
+    width:20px;
+    height:20px;
+    border-radius: 55% 45% 51% 49% / 47% 54% 46% 53% ;
+}
+.drop3{
+    position:absolute;
+    left: 55px;
+    top:93px;
+    height:55px;
+    width:55px;
+    background:rgb(255, 255, 240);
+    box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+    border-radius:46% 54% 51% 49% / 52% 64% 36% 48% 
+}
+.drop3::after{
+    content:'';
+    position:absolute;
+    left:20px;
+    top:20px;
+    background:rgba(237, 240, 242, 0.593);
+    width:20px;
+    height:20px;
+    border-radius:53% 47% 64% 36% / 33% 22% 78% 67% ;
+}
